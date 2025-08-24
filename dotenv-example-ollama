@@ -1,0 +1,5 @@
+LLM_MODEL = 'gemma3:4b'
+ENDPOINT_URL = 'http://localhost:11434/'
+SYSTEM_PROMPT = 'あなたは親切で賢いアシスタントです。日本語で回答してください。'
+USER_PROMPT = '200文字自己紹介をお願いします。'
+# USER_PROMPT = 'ジャガーとヒョウの模様を区別する方法は？200文字以内で。' # 別のプロンプト例
